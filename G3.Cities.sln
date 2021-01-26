@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Core", "G3.Core\G3.Core.csproj", "{E55200E6-4CE2-4C69-A066-BABB059A7C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Services.AutoMapper", "G3.Services.AutoMapper\G3.Services.AutoMapper.csproj", "{31E03112-D164-44D4-AC47-58B2D3875FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Core.Tests", "G3.Core.Tests\G3.Core.Tests.csproj", "{8873FBA9-C3DA-4EB7-8394-788FEF8EE39F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Modules.Cities", "G3.Modules.Cities\G3.Modules.Cities.csproj", "{2974F783-5E41-497B-A13A-D57226D55B8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Services.RestCountries", "G3.Services.RestCountries\G3.Services.RestCountries.csproj", "{73E56D20-9C6F-4290-9E1E-3293D28D967C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Services.RestCountries.Tests", "G3.Services.RestCountries.Tests\G3.Services.RestCountries.Tests.csproj", "{8A1DEF2B-9D0A-497A-B905-AC7C9274D9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Services.OpenWeatherMap", "G3.Services.OpenWeatherMap\G3.Services.OpenWeatherMap.csproj", "{FB2EA083-108A-4506-806B-AA1C186EA1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Services.OpenWeatherMap.Tests", "G3.Services.OpenWeatherMap.Tests\G3.Services.OpenWeatherMap.Tests.csproj", "{087ED065-25CB-4505-BB86-C61CACEFD15F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Modules.Cities.EntityFramework.SqlServer", "G3.Modules.Cities.EntityFramework.SqlServer\G3.Modules.Cities.EntityFramework.SqlServer.csproj", "{EA689804-3F87-4663-96A4-989E11183F6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Modules.Cities.EntityFramework.InMemory", "G3.Modules.Cities.EntityFramework.InMemory\G3.Modules.Cities.EntityFramework.InMemory.csproj", "{A324AC16-4FB8-4B68-B480-8A96B9368795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "G3.Api.Cities", "G3.Api.Cities\G3.Api.Cities.csproj", "{DAACBCD9-68B1-4E2D-8708-6B12BF4E6695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E55200E6-4CE2-4C69-A066-BABB059A7C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55200E6-4CE2-4C69-A066-BABB059A7C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55200E6-4CE2-4C69-A066-BABB059A7C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55200E6-4CE2-4C69-A066-BABB059A7C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31E03112-D164-44D4-AC47-58B2D3875FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31E03112-D164-44D4-AC47-58B2D3875FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31E03112-D164-44D4-AC47-58B2D3875FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31E03112-D164-44D4-AC47-58B2D3875FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8873FBA9-C3DA-4EB7-8394-788FEF8EE39F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8873FBA9-C3DA-4EB7-8394-788FEF8EE39F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8873FBA9-C3DA-4EB7-8394-788FEF8EE39F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8873FBA9-C3DA-4EB7-8394-788FEF8EE39F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2974F783-5E41-497B-A13A-D57226D55B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2974F783-5E41-497B-A13A-D57226D55B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2974F783-5E41-497B-A13A-D57226D55B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2974F783-5E41-497B-A13A-D57226D55B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73E56D20-9C6F-4290-9E1E-3293D28D967C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E56D20-9C6F-4290-9E1E-3293D28D967C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E56D20-9C6F-4290-9E1E-3293D28D967C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E56D20-9C6F-4290-9E1E-3293D28D967C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1DEF2B-9D0A-497A-B905-AC7C9274D9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1DEF2B-9D0A-497A-B905-AC7C9274D9DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1DEF2B-9D0A-497A-B905-AC7C9274D9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1DEF2B-9D0A-497A-B905-AC7C9274D9DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB2EA083-108A-4506-806B-AA1C186EA1F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2EA083-108A-4506-806B-AA1C186EA1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2EA083-108A-4506-806B-AA1C186EA1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2EA083-108A-4506-806B-AA1C186EA1F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{087ED065-25CB-4505-BB86-C61CACEFD15F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{087ED065-25CB-4505-BB86-C61CACEFD15F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{087ED065-25CB-4505-BB86-C61CACEFD15F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{087ED065-25CB-4505-BB86-C61CACEFD15F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA689804-3F87-4663-96A4-989E11183F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA689804-3F87-4663-96A4-989E11183F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA689804-3F87-4663-96A4-989E11183F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA689804-3F87-4663-96A4-989E11183F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A324AC16-4FB8-4B68-B480-8A96B9368795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A324AC16-4FB8-4B68-B480-8A96B9368795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A324AC16-4FB8-4B68-B480-8A96B9368795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A324AC16-4FB8-4B68-B480-8A96B9368795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAACBCD9-68B1-4E2D-8708-6B12BF4E6695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAACBCD9-68B1-4E2D-8708-6B12BF4E6695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAACBCD9-68B1-4E2D-8708-6B12BF4E6695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAACBCD9-68B1-4E2D-8708-6B12BF4E6695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

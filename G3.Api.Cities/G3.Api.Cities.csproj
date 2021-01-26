@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\G3.Core\G3.Core.csproj" />
+      <ProjectReference Include="..\G3.Modules.Cities.EntityFramework.InMemory\G3.Modules.Cities.EntityFramework.InMemory.csproj" />
+      <ProjectReference Include="..\G3.Modules.Cities.EntityFramework.SqlServer\G3.Modules.Cities.EntityFramework.SqlServer.csproj" />
+      <ProjectReference Include="..\G3.Modules.Cities\G3.Modules.Cities.csproj" />
+      <ProjectReference Include="..\G3.Services.AutoMapper\G3.Services.AutoMapper.csproj" />
+      <ProjectReference Include="..\G3.Services.OpenWeatherMap\G3.Services.OpenWeatherMap.csproj" />
+      <ProjectReference Include="..\G3.Services.RestCountries\G3.Services.RestCountries.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+
+</Project>
